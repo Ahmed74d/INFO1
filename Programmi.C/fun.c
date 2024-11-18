@@ -4,6 +4,7 @@
 void carica(int v[]);
 void stampa(int v[]);
 int cerca(int v[]);
+int sPari(int v[]);
 int uguale(int v[], int x); //passo come primo parametro il vettore e come secondo parametro una variabile x che va chiesta all'utente nel main
 
 int main()
@@ -15,6 +16,9 @@ int main()
     stampa(vet);
     int r = cerca(vet);
     printf("l'indice e' %d\n", r);
+
+    int s = sPari(vet); 
+    printf("la somma e' %d\n", s);
     
     printf("inserisci un numero\n");
     scanf("%d", &a);
@@ -69,6 +73,20 @@ int uguale(int v[], int x)
     }
     return cont;
 }
+
+int sPari(int v[])
+{
+    int sum = 0; 
+    for(int i = 0; i < N ; i++)
+     {
+        if(v[i] % 2 == 0)
+        {
+            sum+=v[i]; 
+        }
+     }
+     return sum; 
+}
+
 
 
 
