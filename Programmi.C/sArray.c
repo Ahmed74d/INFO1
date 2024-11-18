@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #define N 4
 
 int main() {
@@ -17,4 +17,26 @@ int main() {
     }
 
     return 0;
+}*/
+#include <stdio.h>
+#define N 5
+
+int main() 
+{
+    int v[N];
+    int sum=0;
+
+    for (int i = 0; i < N; i++) 
+    {
+       printf("inserisci il numero %d\n", i + 1);
+       scanf("%d", &v[i]);
+       if(v[i] % 2 != 0)
+       {
+        sum+=v[i];
+       }
+    }
+    printf("la somma e' %d\n", sum);
+ 
+    return 0;
 }
+
