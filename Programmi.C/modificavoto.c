@@ -22,7 +22,7 @@ int main()
     {
         for(int j = 0; j < 2 ; j++)
         {
-            studente1[i].voti_originali[j] = studente1[i].voti[j];
+            studente1[i].voti_originali[j] = studente1[i].voti[j];// assegnazione per salvare i vecchi voti 
         }
     }
     
