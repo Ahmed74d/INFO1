@@ -17,7 +17,7 @@ int main()
         {"easy", "nadeen", 2023}
     };
 
-    stampaelenco(libro1,);
+    stampaelenco(libro1);
 }
 
 void stampaelenco(libro libro1[])
