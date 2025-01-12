@@ -4,8 +4,8 @@ int main ()
 {
     int arr[5] = {2,6,5,7,1};
 
-    int max = arr[0];
-    int min = arr[0];
+    int max = arr[1];
+    int min = arr[1];
 
     for(int i = 0; i < 5; i++)
     {
@@ -21,6 +21,6 @@ int main ()
         } 
         
     }
-       printf("max e min sono %d e %d ", max , min);
+       printf("max e min sono %d e %d\n ", max , min);
        return 0 ; 
 }
