@@ -1,4 +1,4 @@
-/*#include<stdio.h>
+#include<stdio.h>
 
 int main()
 {
@@ -7,10 +7,10 @@ int main()
     //int* ptr = &number;
     int* ptr; 
     *ptr = number; 
-    printf("%d\n", *ptr);
+    printf("%p\n", ptr);
 
 }
-*/
+
 
 /*#include<stdio.h>
 
@@ -43,7 +43,7 @@ int main()
 
 // come usare un puntatore per accedere ai valori dentro l'array e anche per stamapre il loro indirizzo
 
-#include<stdio.h>
+//#include<stdio.h>
 
 /*int main()
 {
@@ -67,7 +67,7 @@ int main()
 }*/
 
 
-int main()// stampare il numero più grande usando i puntatori 
+/*int main()// stampare il numero più grande usando i puntatori 
 {
     int numeri[5] = {34, 12, 21, 54, 48};
     int a;
@@ -81,5 +81,5 @@ int main()// stampare il numero più grande usando i puntatori
         }
     }
     printf("il più grande è : %d\n", a);
-}
+}*/
 
