@@ -44,10 +44,11 @@ void controlla_lunghezza(char str[], char string[], int* a, int* b)
 
 void controlla_anagrammi(char str[], char string[])
 {
-   int len = strlen(str);
-
+   int len = strlen(str);// ho usato una sola varibaile che indica la lunghezza della prima stringa e poi abbimao usato la 
+// quindi contenete sempre la lunghezza della prima perchè diamo orami per scontato che tutte 2 hanno la stessa lunghezza 
+// altriemnti non sono anagrammi già da prima
     for (int i = 0; i < len - 1; i++) { // abbiamo riordinato ogni stringa cosi da fare in modo che siano in ordine uguale tutte
-        for (int j = i + 1; j < len; j++) { // 2 e quindi quando le confronot capsisco se hanno esattamnete le stesse lettere 
+        for (int j = i + 1; j < len; j++) { // 2 e quindi quando le confronto capsisco se hanno esattamnete le stesse lettere 
             if (str[i] > str[j]) {// o meno
             char temp = str[i];
             str[i] = str[j];
