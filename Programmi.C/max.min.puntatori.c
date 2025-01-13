@@ -29,3 +29,4 @@ void max_min(int* arr, int* max, int* min)
     
     
 }
+

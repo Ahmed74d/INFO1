@@ -83,3 +83,22 @@ int main()
     printf("il più grande è : %d\n", a);
 }*/
 
+/*#include<stdio.h>
+
+void cambia(int* b);
+
+int main()
+{
+    int a = 5;
+    
+    printf("il vecchio valore è %d\n", a);
+
+    cambia(&a);
+    printf("il nuovo numero è %d\n", a);
+
+}
+
+void cambia(int* b)
+{
+    *b = 10;
+}*/
