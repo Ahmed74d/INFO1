@@ -2,7 +2,7 @@
 
 int main ()
 {
-    int a = -1 ;
+    int a= -1;
     int pre = 1;
     int att = 1;
     int somma;  
