@@ -22,7 +22,7 @@ int mcd(int a , int b)
         return a;
     }
     else {
-        return mcd(b, a % b);// questo è proprio come funziona l'algoritmo di euclide b e a%b
+        return mcd(b, a % b);// questo è proprio come funziona l'algoritmo di euclide per calcolare l'mcd (b e a%b)
     }// la funzione continuerà a chiamarsi finchè a%b non diventa 0, quando cio accade il valore di b è il mcd
     // nella prima chiamata in cui il resto è 0 finisce la funzione ricorsiva e resituisce il valore di b 
 }
