@@ -12,7 +12,7 @@ int main()
 
     carica(st, str);
     
-    int f= controllo_diluita(st, str);
+    int f = controllo_diluita(st, str);
     if(f == 1)
     {
         printf("le 2 stringhe sono diluite \n");
@@ -39,32 +39,7 @@ int controllo_diluita(char s1[], char s2[])
     }
    int a = strlen(s1);
    int b = strlen(s2);
-    
-    /*int trovato = 0;
-   for(int i = 0; i < a; i++)
-   { 
-    int j = 0;
-    while(j < b && !trovato)
-    {
-        {
-            if(s1[i] == s2[j])
-            {
-                trovato = 1;
-            }
-            else{
-                j++;
-            }
-        }
-    } 
-   }
-   if(trovato == 0)
-   {
-    return 0;
-   }
-   else {
-    return 1;
-   }*/
-  int i = 0, j = 0;
+    int i = 0, j = 0;
     while(i < a && j < b)  // Scorri entrambe le stringhe
     {
         if(s1[i] == s2[j])  // Se c'è una corrispondenza di caratteri
@@ -82,4 +57,4 @@ int controllo_diluita(char s1[], char s2[])
     {
         return 0;
     }
-}// prova a fare la ricorsiva domani scemo di merda vaffanculo :(
+}
